@@ -1,4 +1,4 @@
-<% require themedCSS(bootstrap.min) %>
+<% require themedCSS(bootstrapmin) %>
 <% require themedCSS(layout) %>
 <% require javascript(themes/bootstrap/js/jquery-1.7.2.min.js) %>
 <% require javascript(themes/bootstrap/js/bootstrap.js) %>
@@ -24,6 +24,5 @@
 				</div>
 			</div>
 		</div>
-		$SilverStripeNavigator
 	</body>
 </html>
