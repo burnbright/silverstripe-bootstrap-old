@@ -1,0 +1,10 @@
+{
+	"name": "burnbright/silverstripe-bootstrap",
+	"description": "SilverStripe bootstrap theme based on twitter bootstrap (using sass!)",
+	"type": "silverstripe-theme",
+	"require": {
+		"composer/installers": "*",
+		"silverstripe/cms": ">=3.0",
+		"silverstripe/framework": ">=3.0"
+	}
+}

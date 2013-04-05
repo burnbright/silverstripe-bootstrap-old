@@ -39,12 +39,11 @@
 					$Layout
 				</div>
 			</div>
-			<div class="row footer">
-				<div class="span12">
-					<p class="copyright">&copy; copyright $Now.Year | <% with SiteConfig %><a href="home">$Title</a><% if Tagline %> - $Tagline<% end_if %><% end_with %></p>
-				</div>
-			</div>
+			<hr/>
 		</div>
+		<footer class="container">
+			<% include Footer %>
+		</footer>
 		<% include IEBottom %>
 	</body>
 </html>

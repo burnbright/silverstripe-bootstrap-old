@@ -18,5 +18,5 @@ compass watch themes/boostrap
 
 To customise the boostrap variables:
 
- * copy 'base.scss' and make your own changes.
- * update styles.scss to point to your copy of base
+ * copy `scss/customisations/base.scss` and make your own changes.
+ * update `styles.scss` to point to your copy
