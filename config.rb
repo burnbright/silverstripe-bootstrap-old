@@ -17,7 +17,7 @@ javascripts_dir = "js"
 http_path = "/"
 
 #To compile css in less readable format, change this to :compact
-output_style = :compact
+output_style = :compressed
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 relative_assets = true
