@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif:700);
+
 // ---- Scaffolding ----
 //$bodyBackground: ;
 //$textColor: ;
@@ -29,14 +31,14 @@
 //$gridGutterWidth768: ;
 
 // ---- Typography ----
-//$sansFontFamily: ;
-//$serifFontFamily: ;
+//$sansFontFamily: 
+$serifFontFamily: 'Noto Sans', sans-serif;
 //$monoFontFamily: ;
 //$baseFontSize: ;
-//$baseFontFamily: ;
+$baseFontFamily:  'Noto Sans', sans-serif;
 //$baseLineHeight: ;
 //$altFontFamily: ;
-//$headingsFontFamily: ;
+$headingsFontFamily: 'Noto Serif', serif;
 //$headingsFontWeight: ;
 //$headingsColor: ;
 //$fontSizeLarge: ;
