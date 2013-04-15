@@ -1,5 +1,39 @@
+//styles that apply to "typography" content areas
 .typography{
 	
+	table{
+		@extend .table; //copy styles from bootstrap
+		@extend .table-bordered;
+	}
 	
+	form{
+		width: 300px;
+		.Actions{
+			margin-top: 2em;
+			input{
+				@extend .btn-primary;
+			}
+		}
+		button,
+		input[type=submit]{
+			@extend .btn;
+		}
+		textarea{
+			resize:vertical;
+		}
+		label{
+			display:inline;
+		}
+		input[type="radio"],
+		input[type="checkbox"]{
+			display:inline;
+			float:none;
+			margin:0 5px 5px 0;			
+		}
+		.checkbox,.radio{
+			padding-left:0;
+		}
+		
+	}
 	
 }
