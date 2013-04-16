@@ -1,5 +1,5 @@
 {
-	"name": "burnbright/silverstripe-bootstrap",
+	"name": "burnbright/bootstrap",
 	"description": "SilverStripe bootstrap theme based on twitter bootstrap (using sass!)",
 	"type": "silverstripe-theme",
 	"require": {
