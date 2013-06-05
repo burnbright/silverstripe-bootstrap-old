@@ -1,14 +1,10 @@
-<div class="navbar">
+<div class="navbar navbar-inverse">
 	<div class="navbar-inner">
 		<div class="container">
-		
-			 <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<i class="icon-list-alt icon-white"></i> menu
 			</a>
-			
 			<div class="nav-collapse collapse">
 				<ul class="nav">		
 				 	<% loop Menu(1) %>	  
