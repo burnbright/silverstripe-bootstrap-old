@@ -12,7 +12,6 @@
 		<!--[if lt IE 9]>
 		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link rel="shortcut icon" href="$Themedir/images/favicon.ico" />
 	</head>
 	<body>
 		<% include IETop %>
